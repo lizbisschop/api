@@ -6,7 +6,7 @@ const app = express();
 
 // Define a route for GET requests to '/api/hello'
 app.get('/', (req, res) => {
-    res.json({ message: 'Hello, World! hihihihihihi this is horrible' });
+    res.json({ message: 'Hello, World! niewe dag niewe kansen' });
 });
 
 // Start the server
