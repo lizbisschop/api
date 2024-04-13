@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Define a route for GET requests to '/api/hello'
-app.get('/', (req, res) => {
+app.get('/hello_world', (req, res) => {
     res.json({ "result": 'hello world' });
 });
 
